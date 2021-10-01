@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header id="header" class="header">
+    <div class="header_img">
+      <img src="img/stella_picnic_Banner 2.png" alt="Imagen Stellar Picnic">
+    </div>
+    <div class="header_title container">
+      <h1>Registra tus datos y completa la Trivia</h1>
+    </div>
+  </header>
+
+  <main>
+    <form id="formulario">
+      <div class="input_nombre container">
+        <p class="input_nombre_p">Nombre*</p>
+        <input class="input_nombre_campo" type="text" name="nombre" placeholder="Julián Pardo">
+      </div>
+      <div class="input_apellido container">
+        <p class="input_apellido_p">Apellidos*</p>
+        <input class="input_apellido_campo" type="text" name="apellido" placeholder="Ingresa tu apellido">
+      </div>
+      <div class="input_genero container">
+        <p class="input_genero_p">Género*</p>
+        <select class="input_genero_campo" type="select" name="genero">
+          <option selected disabled hidden>Selecciona una opción</option>
+        </select>
+      </div>
+      <div class="input_fecha container">
+        <p class="input_fecha_p">Fecha de nacimiento*</p>
+        <div class="input_fecha_div">
+          <div class="input_fecha_campo">
+            <input type="text" placeholder="DD">
+          </div>
+          <div class="input_fecha_campo">
+            <input type="text" placeholder="MM">
+          </div>
+          <div class="input_fecha_campo">
+            <input type="text" placeholder="MM">
+          </div>
+        </div>
+      </div>
+      <div class="input_correo container">
+        <p class="input_correo_p">Correo electrónico*</p>
+        <input class="input_correo_campo" type="email" name="correo" placeholder="mail@tumail.com">
+      </div>
+      <div class="input_telefono container">
+        <p class="input_telefono_p">Número de telefono*</p>
+        <input class="input_telefono_campo" type="tel" name="telefono" placeholder="000-0000-00">
+      </div>
+      <div class="input_estado container">
+        <p class="input_estado_p">Estado*</p>
+        <select class="input_estado_campo" type="select" name="estado">
+          <option selected disabled hidden>Selecciona una opción</option>
+        </select>
+      </div>
+      <div class="input_postal container">
+        <p class="input_postal_p">Código Postal*</p>
+        <input class="input_postal_campo" type="tel" name="postal" placeholder="000-0000-00">
+      </div>
+      <div class="container_conter">
+        <div class="container_terminos container">
+          <div class="input_terminos">
+            <input type="checkbox" name="terminos" checked>
+            <label for="terminos""><svg xmlns=" http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check icono" width="32" height="32" viewBox="0 0 24 24"
+              stroke-width="2" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M5 12l5 5l10 -10" />
+              </svg>
+            </label>
+            <p class="input_terminos_p">Acepto <span>Términos y Condiciones y Politicas de privacidad.</span></p>
+          </div>
+        </div>
+        <div class="container_consentimiento container">
+          <div class="input_consentimiento">
+            <input type="checkbox" name="consentimiento">
+            <label for="consentimiento" class="label_consentimiento"></label>
+            <p class=" input_consentimiento_p">Deseo recibir información comercial y eventos de Grupo Modelo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container_boton container">
+        <div class="boton">
+          <button class="boton_registrarse">R e g i s t r a r m e</button>
+        </div>
+      </div>
+    </form>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="footer_container-outside">
+      <div class="footer_container-inside">
+        <div class="footer_contain">
+          <div class="footer_logo">
+            <img src="img/STELLA_ARTOIS_WORDMARK_RGB_master 2.png" alt="logo stella artois">
+          </div>
+          <div class="footer_iconos">
+            <img class="footer_iconos-instagram" src="img/Vector.png" alt="icono instagram">
+            <img class="footer_iconos-twitter" src="img/Vector2.png" alt="icono twitter">
+            <img class="footer_iconos-facebook" src="img/Vector3.png" alt="icono facebook">
+          </div>
+          <div class="footer_links">
+            <a href="#" class="footer_links-1">Términos y condiciones</a>
+            <a href="#" class="footer_links-2">Aviso de privacidad y politica de uso</a>
+            <a href="#" class="footer_links-3">Contáctenos</a>
+            <a href="#" class="footer_links-4">Tap into your beer</a>
+          </div>
+          <div class="footer_texto">
+            <p class="footer_texto_terminos">ANHEUSER-BUSCH INBEV© 2021<br> Tap into your beer Términos y
+              condiciones<br>
+              Aviso de privacidad y política de
+              uso<br>
+              Contáctanos</p>
+            <p class="footer_texto_precaucion">TODO CON MEDIDA</p>
+            <p class="footer_texto_derechos">TODO CON MEDIDA. TODOS LOS DERECHOS RESERVADOS 2020. NO COMPARTAS ESTE
+              CONTENIDO CON MENORES DE EDAD.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
